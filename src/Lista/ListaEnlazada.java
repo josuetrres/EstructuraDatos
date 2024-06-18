@@ -1,19 +1,17 @@
-package Lista; // Indicamos que esta clase está en el paquete Lista
+package EstructuraDatos.Lista; // Indicamos que esta clase está en el paquete Lista
+import EstructuraDatos.EstructuraDatos;
+// Importamos la clase EstructuraDatos
 
-import Operaciones; // Importamos la interfaz Operaciones de EstructuraDatos
-
-public class ListaEnlazada extends Operaciones {
+public class ListaEnlazada extends EstructuraDatos{
     private TipoLista tipo;
     private int tamano;
     private Nodo cabeza;
     private Nodo cola;
 
-    public ListaEnlazada(String nombre, TipoLista tipo) {;
-        this.tipo = tipo;
-        this.tamano = 0;
-        this.cabeza = null;
-        this.cola = null;
+    public ListaEnlazada(String nombre) {
+        super(nombre);
     }
+
 
     // Getters y setters
     public TipoLista getTipo() {

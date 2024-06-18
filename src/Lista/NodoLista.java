@@ -1,4 +1,4 @@
-package Lista;
+package EstructuraDatos.Lista;
 
 public class NodoLista {
     private int index;
