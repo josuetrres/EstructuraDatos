@@ -48,4 +48,7 @@ public class NodoLista {
         this.anterior = anterior;
     }
 
-    public ListaE
+    public ListaEnlazada getListaEnlazada() {
+        return listaEnlazada;
+    }
+}
